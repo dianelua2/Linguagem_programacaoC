@@ -9,5 +9,6 @@ main(){
     printf("Digite seu telefone:\n");
     scanf("%s",&telefone);
     printf("Digite seu  endereco:\n" );
-    scanf("%s",&endereco );
+    gets(endereco);
+    printf("Dados do usuário\n %s, %s,%s", nome, telefone, endereco );
 }
